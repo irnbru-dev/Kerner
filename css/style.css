@@ -60,6 +60,10 @@ body {
 	background-color: #1b1f21;
 	padding-bottom: 6px;
 	border-bottom: 1px solid #303334;
+
+	position: fixed;
+	width: 100%;
+	z-index: 10;
 }
 
 .main-nav__list {
@@ -85,11 +89,8 @@ body {
 }
 
 .account {
-	// width: 15%;
 	text-align: right;
-	
 	float: right;
-	border: 1px solid red;
 }
 
 .account-item {
@@ -97,14 +98,24 @@ body {
 	display: inline-block;
 	margin-left: 25px;
 	text-align: right;
+	vertical-align: top;	
+}
+
+.account-item img {
+	margin-top: 9px;
+	margin-right: 4px;
+	display: inline-block;
 }
 
 .account-item .login {
+	display: inline-block;
 	text-decoration: none;
 	color: #fff;
 	font-size: 14px;
 	line-height: 36px;
 	font-weight: 400;
+	vertical-align: top;
+	
 }
 
 .account-item .signin {
@@ -118,7 +129,7 @@ body {
 .header-main {
 	position: absolute;
 	top: 104px;
-	// vertical-align: middle;
+	width: 100%;
 }
 
 .logo {
@@ -216,7 +227,6 @@ body {
 	padding-right: 24px;
 	border: 1px solid #414345;
 	font-size: 18px;
-
 	font-weight: 300
 }
 
@@ -260,13 +270,3 @@ body {
 	font-size: 14px;
 	line-height: 24px;
 }
-
-
-
-
-
-
-
-
-
-
