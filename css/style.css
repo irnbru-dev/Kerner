@@ -158,27 +158,13 @@ body {
 	padding-right: 70px;
 	margin-left: 55px;
 	margin-top: 5px;
-}
 
-.header-search:before {
-	position: absolute;
-	display: inline-block;
-	content: '';
-
-	width: 14px;
-	height: 14px;
-
-	top: 10px;
-	left: 10px;
+	outline: none;
 
 	background-image: url(../svg/search.svg);
 	background-repeat: no-repeat;
-	background-size: 100%;
-	
-}
-
-.header-search:focus {
-
+    background-position: 14px;
+    background-size: 6%;
 }
 
 .tel {
