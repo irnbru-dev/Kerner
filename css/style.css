@@ -58,7 +58,7 @@ body {
 
 .header-top {
 	background-color: #1b1f21;
-	padding-bottom: 7px;
+	padding-bottom: 6px;
 	border-bottom: 1px solid #303334;
 }
 
@@ -117,7 +117,8 @@ body {
 
 .header-main {
 	position: absolute;
-	top: 100px;
+	top: 104px;
+	// vertical-align: middle;
 }
 
 .logo {
@@ -128,18 +129,24 @@ body {
 	display: inline-block;
 	font-size: 14px;
 	line-height: 20px;
+	margin-left: 27px;
+	vertical-align: top;
+	margin-top: 5px;
 }
 
 .header-search {
 	position: relative;
+	vertical-align: top;
 	border-radius: 25px;
 	background-color: transparent;
 	color: #fff;
 	font-size: 14px;
 	line-height: 18px;
-	padding: 8px 0;
+	padding: 9px 0;
 	padding-left: 39px;
 	padding-right: 70px;
+	margin-left: 55px;
+	margin-top: 5px;
 }
 
 .header-search:before {
@@ -165,9 +172,12 @@ body {
 
 .tel {
 	display: inline-block;
+	vertical-align: top;
+	margin-top: 10px;
+	margin-left: 80px;
 	font-size: 24px;
 	line-height: 30px;
-	font-weight: 700;
+	font-weight: 500;
 }
 
 .btn {
@@ -178,9 +188,12 @@ body {
 }
 
 .btn--round {
-	padding: 9px 16px;
+	padding: 8px 17px;
 	background-color: #579ac5;
 	border-radius: 25px;
+	margin-left: 25px;
+	vertical-align: top;
+	margin-top: 10px;
 }
 
 .promo {
@@ -195,38 +208,46 @@ body {
 	font-size: 40px;
 	line-height: 60px;
 	font-weight: normal;
-	margin-bottom: 24px;
+	margin-bottom: 20px;
 }
 
 .btn__catalog {
-	padding: 13px 0;
-	padding-left: 59px;
-	padding-right: 22px;
+	padding: 14px 0;
+	padding-right: 24px;
 	border: 1px solid #414345;
 	font-size: 18px;
+
+	font-weight: 300
+}
+
+.btn__catalog img {
+	margin-right: 15px;
+    margin-left: 20px;
 }
 
 .promo-items-box {
 	list-style: none;
-	margin-top: 260px;	
+	margin-top: 260px;
+	display: flex;
+	flex-direction: row;
 }
 
 .promo-item {
-	display: inline-block;
+	display: flex;
+	flex-direction: row;
 	vertical-align: top;
-	width: 30%;
+	width: 25%;
 	margin-right: 3%;
-	padding-left: 70px;
-	
-	// border: 1px solid red;
+	padding-left: 5px;
 }
 
 .promo-item-img-box {
-	display: inline-block;
+	width: 50px;
+	height: 50px;
+    margin-right: 15px;
 }
 
 .promo-item-title {
-	display: inline-block;
 	font-weight: 400;
 	text-transform: uppercase;
 	font-size: 18px;
